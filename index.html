@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Streaming Platform</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h2>Upload Video</h2>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadVideo()">Upload</button>
+
+    <h2>Stream Video</h2>
+    <input type="text" id="filenameInput" placeholder="Enter video name" />
+    <button onclick="streamVideo()">Stream</button>
+
+    <video id="videoPlayer" controls></video>
+
+    <script src="script.js"></script>
+</body>
+</html>
